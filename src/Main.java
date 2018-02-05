@@ -62,12 +62,20 @@ public class Main {
         //int sumsubarraymax=find.findgreatsumsubarray(arr);
         //System.out.println(sumsubarraymax);
 
-        NumberOf1Between1AndN_Solution num=new NumberOf1Between1AndN_Solution();
-        int num1=num.NumberOf1Between1AndN_1(21345);
-        int num2=num.NumberOf1Between1AndN_2(21345);
-        System.out.println("num1:"+String.valueOf(num1)+"  num2:"+String.valueOf(num1));
+        //NumberOf1Between1AndN_Solution num=new NumberOf1Between1AndN_Solution();
+        //int num1=num.NumberOf1Between1AndN_1(21345);
+        //int num2=num.NumberOf1Between1AndN_2(21345);
+        //System.out.println("num1:"+String.valueOf(num1)+"  num2:"+String.valueOf(num1));
 
 
+        //int [] number={3,32,321};
+        //int []number={3,5,1,4,2};
+        //String min=new PrintMinNumber().PrintMinNumber(number);
+        //System.out.println(min);
+        int [] number={3,32,321};
+        //int []number={3,5,1,4,2};
+        String min=new PrintMinNumber().PrintMinNumber_2(number);
+        System.out.println(min);
 
 
     }
