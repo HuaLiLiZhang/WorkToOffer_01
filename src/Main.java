@@ -10,12 +10,12 @@ public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello World!");
         //数组中出现次数超过一半的数字。
-        int []array={1,2,3,2,2,2,2,5,4,2};
+        //int []array={1,2,3,2,2,2,2,5,4,2};
         //int []array={4,2,1,4,2,4};
         //int[]array={1,2,3,2,4,2,5,2,3};
-        MoreThanHalfNum_On more=new MoreThanHalfNum_On();
-        int result = more.morethanhalfnum(array);
-        System.out.println(result);
+        //MoreThanHalfNum_On more=new MoreThanHalfNum_On();
+        //int result = more.morethanhalfnum(array);
+        //System.out.println(result);
 
         //int []array={1,2,3,2,2,2,2,5,4,2};
         //int []array={4,2,1,4,2,4};
@@ -49,6 +49,18 @@ public class Main {
         //}
 
 
+        //int []arr={1,-2,3,10,-4,7,2,-5};
+        ////int[]arr={-2,-8,-1,-5,-9};
+        //FindGreatestSumOfSubArray find= new FindGreatestSumOfSubArray();
+        //int sumsubarraymax=find.findgreateSumOfSubArray(arr);
+        //System.out.println(sumsubarraymax);
+
+        //int []arr={1,-2,3,10,-4,7,2,-5};
+        //int[]arr={-2,-8,-1,-5,-9};
+        int[]arr={2,8,1,5,9};
+        FindGreatestSumOfSubArray_fn find= new FindGreatestSumOfSubArray_fn();
+        int sumsubarraymax=find.findgreatsumsubarray(arr);
+        System.out.println(sumsubarraymax);
 
     }
 
