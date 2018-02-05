@@ -57,10 +57,18 @@ public class Main {
 
         //int []arr={1,-2,3,10,-4,7,2,-5};
         //int[]arr={-2,-8,-1,-5,-9};
-        int[]arr={2,8,1,5,9};
-        FindGreatestSumOfSubArray_fn find= new FindGreatestSumOfSubArray_fn();
-        int sumsubarraymax=find.findgreatsumsubarray(arr);
-        System.out.println(sumsubarraymax);
+        //int[]arr={2,8,1,5,9};
+        //FindGreatestSumOfSubArray_fn find= new FindGreatestSumOfSubArray_fn();
+        //int sumsubarraymax=find.findgreatsumsubarray(arr);
+        //System.out.println(sumsubarraymax);
+
+        NumberOf1Between1AndN_Solution num=new NumberOf1Between1AndN_Solution();
+        int num1=num.NumberOf1Between1AndN_1(1345);
+        int num2=num.NumberOf1Between1AndN_2(1345);
+        System.out.println("num1:"+String.valueOf(num1)+"  num2:"+String.valueOf(num1));
+
+
+
 
     }
 
