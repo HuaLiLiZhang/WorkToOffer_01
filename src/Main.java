@@ -63,8 +63,8 @@ public class Main {
         //System.out.println(sumsubarraymax);
 
         NumberOf1Between1AndN_Solution num=new NumberOf1Between1AndN_Solution();
-        int num1=num.NumberOf1Between1AndN_1(1345);
-        int num2=num.NumberOf1Between1AndN_2(1345);
+        int num1=num.NumberOf1Between1AndN_1(21345);
+        int num2=num.NumberOf1Between1AndN_2(21345);
         System.out.println("num1:"+String.valueOf(num1)+"  num2:"+String.valueOf(num1));
 
 
