@@ -72,12 +72,16 @@ public class Main {
         //int []number={3,5,1,4,2};
         //String min=new PrintMinNumber().PrintMinNumber(number);
         //System.out.println(min);
-        int [] number={3,32,321};
-        //int []number={3,5,1,4,2};
-        String min=new PrintMinNumber().PrintMinNumber_2(number);
-        System.out.println(min);
+        //int [] number={3,32,321};
+        ////int []number={3,5,1,4,2};
+        //String min=new PrintMinNumber().PrintMinNumber_2(number);
+        //System.out.println(min);
 
 
+        //int number=new GetUglyNumber_Solution().GetUglyNumber_1(9);
+        //System.out.println(number);
+        int number=new GetUglyNumber_Solution().GetUglyNumber_2(9);
+        System.out.println(number);
     }
 
 }

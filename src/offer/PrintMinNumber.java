@@ -8,6 +8,7 @@ import java.util.Comparator;
 /**
  * Created by huali on 2018/2/5.
  */
+//把数组排成最小的数。
 public class PrintMinNumber {
     //第一种，利用Collection的sort方法。
     public String PrintMinNumber(int [] numbers)
