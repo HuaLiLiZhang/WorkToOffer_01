@@ -80,8 +80,13 @@ public class Main {
 
         //int number=new GetUglyNumber_Solution().GetUglyNumber_1(9);
         //System.out.println(number);
-        int number=new GetUglyNumber_Solution().GetUglyNumber_2(9);
-        System.out.println(number);
+        //int number=new GetUglyNumber_Solution().GetUglyNumber_2(9);
+        //System.out.println(number);
+
+        String str="abaccdeff";
+        FirstNotRepeatingChar first=new FirstNotRepeatingChar();
+        int index = first.FirstNotRepeatingChar(str);
+        System.out.println(index+":"+str.toCharArray()[index]);
     }
 
 }
