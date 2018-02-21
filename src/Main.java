@@ -83,10 +83,18 @@ public class Main {
         //int number=new GetUglyNumber_Solution().GetUglyNumber_2(9);
         //System.out.println(number);
 
-        String str="abaccdeff";
-        FirstNotRepeatingChar first=new FirstNotRepeatingChar();
-        int index = first.FirstNotRepeatingChar(str);
-        System.out.println(index+":"+str.toCharArray()[index]);
+        //String str="abaccdeff";
+        //FirstNotRepeatingChar first=new FirstNotRepeatingChar();
+        //int index = first.FirstNotRepeatingChar_0(str);
+        //System.out.println(index+":"+str.toCharArray()[index]);
+
+
+        //int[]arr={7,5,6,4,1};
+        //int Invernum=new InversePairs().InversePairs_1(arr);
+        //System.out.println(Invernum);
+
+
+
     }
 
 }

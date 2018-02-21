@@ -10,7 +10,7 @@ public class FirstNotRepeatingChar {
     //使用数据容器存储每个元素出现的次数，key, value ,
     // 然后根据字符查找他出现的次数。把字符串映射为一个数字。即是HashMap。
     //key :是字符，value是字符出现的次数。
-    public int FirstNotRepeatingChar(String str)
+    public int FirstNotRepeatingChar_0(String str)
     {
         if(str.length()==0||str==null)
             return -1;
