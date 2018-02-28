@@ -94,6 +94,10 @@ public class Main {
         //System.out.println(Invernum);
 
 
+        testFindFirstCommonNode test=new testFindFirstCommonNode();
+        test.testFirst();
+
+
 
     }
 
