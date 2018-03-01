@@ -103,8 +103,17 @@ public class Main {
         //int number=numberOfK.GetNumberOfK(array,k);
         //System.out.println("the number of "+k+" is :"+number);
 
-        TreeDepthtest test1= new TreeDepthtest();
-        test1.test();
+        //TreeDepthtest test1= new TreeDepthtest();
+        //test1.test();
+
+        int[]array={1,3,4,5,4,3,9,10,10,1};
+        int []num1={0};
+        int []num2={0};
+
+        FindNumsAppearOnce num= new FindNumsAppearOnce();
+        num.findNumsAppearOnce(array,num1,num2);
+
+
 
 
 

@@ -31,5 +31,8 @@ public class TreeDepthtest {
         boolean result = is.IsBalanced_Solution(r0);
         System.out.println(result);
 
+        boolean isbalancedbinarytree = is.isBalanced_(r0) ;
+        System.out.println(isbalancedbinarytree);
+
     }
 }
