@@ -96,13 +96,17 @@ public class Main {
 
 
         //int[]array={1,2,3,3,3,3,4,5};
-        int[]array={3,3,3,3};
+        //int[]array={3,3,3,3};
+        //
+        //GetNumberOfk numberOfK=new GetNumberOfk();
+        //int k=4;
+        //int number=numberOfK.GetNumberOfK(array,k);
+        //System.out.println("the number of "+k+" is :"+number);
 
-        GetNumberOfk numberOfK=new GetNumberOfk();
-        int k=4;
-        int number=numberOfK.GetNumberOfK(array,k);
-        System.out.println("the number of "+k+" is :"+number);
+        //TreeDepthtest test1= new TreeDepthtest();
+        //test1.test();
 
+        
     }
 
 }
