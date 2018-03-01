@@ -1,5 +1,7 @@
 import offer.*;
 
+import java.util.ArrayList;
+
 /**
  * Created by huali on 2018/2/5.
  */
@@ -113,15 +115,17 @@ public class Main {
         //FindNumsAppearOnce num= new FindNumsAppearOnce();
         //num.findNumsAppearOnce(array,num1,num2);
 
-        //int[]array={1,2,4,7,11,15};
+        int[]array={1,2,4,7,8,11,15};
         //int []num1={0};
         //int []num2={0};
-        //FindNumbersWIthSum found=new FindNumbersWIthSum();
-        //boolean f=found.findnumberwithsum(array,15,num1,num2);
-        //System.out.println(f);
+        FindNumbersWIthSum found=new FindNumbersWIthSum();
+        ArrayList<Integer> f=found.findnumberwithsum(array,15);
+        System.out.println(f.toString());
 
-        FindContinuousSequence conti=new FindContinuousSequence();
-        conti.findContinuousSequence(15);
+
+
+        //FindContinuousSequence conti=new FindContinuousSequence();
+        //conti.findContinuousSequence(15);
 
 
 
