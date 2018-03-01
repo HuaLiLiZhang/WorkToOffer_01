@@ -103,10 +103,11 @@ public class Main {
         //int number=numberOfK.GetNumberOfK(array,k);
         //System.out.println("the number of "+k+" is :"+number);
 
-        //TreeDepthtest test1= new TreeDepthtest();
-        //test1.test();
+        TreeDepthtest test1= new TreeDepthtest();
+        test1.test();
 
-        
+
+
     }
 
 }
