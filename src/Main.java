@@ -106,14 +106,19 @@ public class Main {
         //TreeDepthtest test1= new TreeDepthtest();
         //test1.test();
 
-        int[]array={1,3,4,5,4,3,9,10,10,1};
+        //int[]array={1,3,4,5,4,3,9,10,10,1};
+        //int []num1={0};
+        //int []num2={0};
+        //
+        //FindNumsAppearOnce num= new FindNumsAppearOnce();
+        //num.findNumsAppearOnce(array,num1,num2);
+
+        int[]array={1,2,4,7,11,15};
         int []num1={0};
         int []num2={0};
-
-        FindNumsAppearOnce num= new FindNumsAppearOnce();
-        num.findNumsAppearOnce(array,num1,num2);
-
-
+        FindNumbersWIthSum found=new FindNumbersWIthSum();
+        boolean f=found.findnumberwithsum(array,15,num1,num2);
+        System.out.println(f);
 
 
 
