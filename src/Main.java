@@ -113,12 +113,17 @@ public class Main {
         //FindNumsAppearOnce num= new FindNumsAppearOnce();
         //num.findNumsAppearOnce(array,num1,num2);
 
-        int[]array={1,2,4,7,11,15};
-        int []num1={0};
-        int []num2={0};
-        FindNumbersWIthSum found=new FindNumbersWIthSum();
-        boolean f=found.findnumberwithsum(array,15,num1,num2);
-        System.out.println(f);
+        //int[]array={1,2,4,7,11,15};
+        //int []num1={0};
+        //int []num2={0};
+        //FindNumbersWIthSum found=new FindNumbersWIthSum();
+        //boolean f=found.findnumberwithsum(array,15,num1,num2);
+        //System.out.println(f);
+
+        FindContinuousSequence conti=new FindContinuousSequence();
+        conti.findContinuousSequence(15);
+
+
 
 
 
