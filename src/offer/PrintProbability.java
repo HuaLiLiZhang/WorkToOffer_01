@@ -58,7 +58,7 @@ public class PrintProbability {
     {
         if(number<1)
             return;
-        int [] []pProbability = new int[g_maxvalue*number+1][g_maxvalue*number+1];
+        int [] []pProbability = new int[2][g_maxvalue*number+1];
 
         for(int i=0;i<g_maxvalue*number+1;++i)
         {
@@ -66,7 +66,7 @@ public class PrintProbability {
             pProbability[1][i]=0;
         }
         int flag = 0;
-        for(int i=0;i<=g_maxvalue;++i)
+        for(int i=1;i<=g_maxvalue;++i)
             pProbability[flag][i]=1;
 
         for(int k=2;k<=number;++k)

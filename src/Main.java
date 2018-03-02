@@ -147,13 +147,18 @@ public class Main {
         //i+=++i;
         //System.out.println(i); //i=1
 
-        PrintProbability p=new PrintProbability();
-        p.printProbability(2);
+        //PrintProbability p=new PrintProbability();
+        //p.printProbability(3);
 
-        PrintProbability p1=new PrintProbability();
-        p1.printprobability(1);
+        //PrintProbability p1=new PrintProbability();
+        //p1.printprobability(1);
 
-        System.out.println();
+        //System.out.println();
+
+        LastRemaining_Solution last = new LastRemaining_Solution();
+        int last1=last.LastRemaining(8,3);
+        int last2=last.lastremaining(8,3);
+        System.out.println(last1+":"+last1);
 
 
 
