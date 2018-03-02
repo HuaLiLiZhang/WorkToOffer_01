@@ -155,13 +155,20 @@ public class Main {
 
         //System.out.println();
 
-        LastRemaining_Solution last = new LastRemaining_Solution();
-        int last1=last.LastRemaining(4000,997);
-        int last2=last.lastremaining(4000,997);
-        System.out.println(last1+":"+last1);
+        //LastRemaining_Solution last = new LastRemaining_Solution();
+        //int last1=last.LastRemaining(4000,997);
+        //int last2=last.lastremaining(4000,997);
+        //int last3=last.LastRemaining_Solution2(5,3);
+        //System.out.println(last1+":"+last1+":"+last3);
+
+        //Sum_Solution sum=new Sum_Solution();
+        //int sum_n = sum.sum_N(100);
+        //System.out.println(sum_n);
 
 
-
+        Add a=new Add();
+        int sum_num12=a.add_number(3,9);
+        System.out.println(sum_num12);
     }
 
 }
