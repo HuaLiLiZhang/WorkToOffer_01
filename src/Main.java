@@ -133,11 +133,19 @@ public class Main {
         //String str1 = left.leftRotatestring(str,2);
         //System.out.println(str1.toString());
 
-        String str="I am a students.";
-        System.out.println(str.length());
-        ReverseSentence left=new ReverseSentence();
-        String str1 = left.reverseSentence(str);
-        System.out.println(str1);
+        //String str="I am a students.";
+        //System.out.println(str.length());
+        //ReverseSentence left=new ReverseSentence();
+        //String str1 = left.reverseSentence(str);
+        //System.out.println(str1);
+
+        int [] num={1,2,3,4,5};
+        System.out.println(new isContinuous().Iscontinuous(num));
+        int i=0;
+        i+=i++;
+        System.out.println(i); //i=0
+        i+=++i;
+        System.out.println(i); //i=1
 
 
 
