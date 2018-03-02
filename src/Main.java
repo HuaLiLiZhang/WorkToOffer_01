@@ -156,8 +156,8 @@ public class Main {
         //System.out.println();
 
         LastRemaining_Solution last = new LastRemaining_Solution();
-        int last1=last.LastRemaining(8,3);
-        int last2=last.lastremaining(8,3);
+        int last1=last.LastRemaining(4000,997);
+        int last2=last.lastremaining(4000,997);
         System.out.println(last1+":"+last1);
 
 
