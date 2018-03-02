@@ -115,17 +115,23 @@ public class Main {
         //FindNumsAppearOnce num= new FindNumsAppearOnce();
         //num.findNumsAppearOnce(array,num1,num2);
 
-        int[]array={1,2,4,7,8,11,15};
-        //int []num1={0};
-        //int []num2={0};
-        FindNumbersWIthSum found=new FindNumbersWIthSum();
-        ArrayList<Integer> f=found.findnumberwithsum(array,15);
-        System.out.println(f.toString());
+        //int[]array={1,2,4,7,8,11,15};
+        ////int []num1={0};
+        ////int []num2={0};
+        //FindNumbersWIthSum found=new FindNumbersWIthSum();
+        //ArrayList<Integer> f=found.findnumberwithsum(array,15);
+        //System.out.println(f.toString());
 
 
 
         //FindContinuousSequence conti=new FindContinuousSequence();
         //conti.findContinuousSequence(15);
+
+        String str="abcdefgh";
+        System.out.println(str.length());
+        LeftRotateString left=new LeftRotateString();
+        String str1 = left.leftRotatestring(str,2);
+        System.out.println(str1.toString());
 
 
 

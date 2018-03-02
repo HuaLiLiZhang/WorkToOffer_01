@@ -6,6 +6,38 @@ import java.util.ArrayList;
  * Created by huali on 2018/3/1.
  */
 public class FindNumbersWIthSum {
+    public ArrayList<Integer> findnumberWithSum(int []array,int sum)
+    {
+        ArrayList<Integer> arr=new ArrayList<>();
+        int length=array.length;
+        if(array==null||length<=1)
+            return arr;
+        int start = 0;
+        int end = length-1;
+        while (start<end)
+        {
+            if(array[start]+array[end]==sum)
+            {
+                if(array[start]>array[end])
+                {
+                    int temp =array[end];
+                    array[end]=array[start];
+                    array[start]=temp;
+                }
+                arr.add(array[start]);
+                arr.add(array[end]);
+                return arr;
+            }else if(array[start]+array[end]>sum)
+                end--;
+            else
+                start++;
+        }
+        return arr;
+    }
+
+
+
+
     public ArrayList<Integer> findnumberwithsum(int[]array, int sum)
     {
         //boolean found= false;
@@ -52,5 +84,8 @@ public class FindNumbersWIthSum {
         }
         return arr;
     }
+
+
+
 
 }
