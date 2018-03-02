@@ -139,15 +139,21 @@ public class Main {
         //String str1 = left.reverseSentence(str);
         //System.out.println(str1);
 
-        int [] num={1,2,3,4,5};
-        System.out.println(new isContinuous().Iscontinuous(num));
-        int i=0;
-        i+=i++;
-        System.out.println(i); //i=0
-        i+=++i;
-        System.out.println(i); //i=1
+        //int [] num={1,2,3,4,5};
+        //System.out.println(new isContinuous().Iscontinuous(num));
+        //int i=0;
+        //i+=i++;
+        //System.out.println(i); //i=0
+        //i+=++i;
+        //System.out.println(i); //i=1
 
+        PrintProbability p=new PrintProbability();
+        p.printProbability(2);
 
+        PrintProbability p1=new PrintProbability();
+        p1.printprobability(1);
+
+        System.out.println();
 
 
 

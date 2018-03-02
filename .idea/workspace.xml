@@ -20,8 +20,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="146" column="15" lean-forward="true" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
+            <state relative-caret-position="301">
+              <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="isContinuous.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/isContinuous.java">
+      <file leaf-file-name="PrintProbability.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/offer/PrintProbability.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <caret line="90" column="64" lean-forward="true" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -105,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/offer/LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/offer/ReverseSentence.java" />
         <option value="$PROJECT_DIR$/src/offer/isContinuous.java" />
+        <option value="$PROJECT_DIR$/src/offer/PrintProbability.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -331,12 +332,12 @@
       <updated>1517810858055</updated>
       <workItem from="1517810859543" duration="36723000" />
       <workItem from="1518937015005" duration="4634000" />
-      <workItem from="1519795137514" duration="49955000" />
+      <workItem from="1519795137514" duration="54821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91312000" />
+    <option name="totallyTimeSpent" value="96178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1098" extended-state="6" />
@@ -350,7 +351,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28062826" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34136125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -416,12 +417,6 @@
           <line>15</line>
           <properties />
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>135</line>
-          <properties />
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/offer/ReverseSentence.java</url>
@@ -695,20 +690,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/isContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="146" column="15" lean-forward="true" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
+        <state relative-caret-position="301">
+          <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/isContinuous.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/PrintProbability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <caret line="90" column="64" lean-forward="true" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
           <folding />
         </state>
       </provider>
