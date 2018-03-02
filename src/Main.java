@@ -127,11 +127,17 @@ public class Main {
         //FindContinuousSequence conti=new FindContinuousSequence();
         //conti.findContinuousSequence(15);
 
-        String str="abcdefgh";
+        //String str="abcdefgh";
+        //System.out.println(str.length());
+        //LeftRotateString left=new LeftRotateString();
+        //String str1 = left.leftRotatestring(str,2);
+        //System.out.println(str1.toString());
+
+        String str="I am a students.";
         System.out.println(str.length());
-        LeftRotateString left=new LeftRotateString();
-        String str1 = left.leftRotatestring(str,2);
-        System.out.println(str1.toString());
+        ReverseSentence left=new ReverseSentence();
+        String str1 = left.reverseSentence(str);
+        System.out.println(str1);
 
 
 
