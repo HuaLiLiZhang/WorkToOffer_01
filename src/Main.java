@@ -183,14 +183,20 @@ public class Main {
         //System.out.println(result);
 
 
-        int[]A={1,2,3,4,5};
-        int[]B=new multiply().Muitipy(A);
-        int i=0;
-        while (i<B.length)
-        {
-            System.out.print(B[i]+",");
-            i++;
-        }
+        //int[]A={1,2,3,4,5};
+        //int[]B=new multiply().Muitipy(A);
+        //int i=0;
+        //while (i<B.length)
+        //{
+        //    System.out.print(B[i]+",");
+        //    i++;
+        //}
+
+        char[] str={};
+        char[] pattern={'.','*'};
+        boolean match0=new Match().match(str,pattern);
+        System.out.println(match0);
+
 
     }
 
