@@ -176,11 +176,21 @@ public class Main {
         //System.out.println(result);
 
         //int[]number = {2,3,1,0,2,5,3};
-        int[]number = {2,1,3,1,4};
-        int[] dup = new int[number.length];
-        duplicate du=new duplicate();
-        boolean result = du.duplicate_N(number,number.length,dup );
-        System.out.println(result);
+        //int[]number = {2,1,3,1,4};
+        //int[] dup = new int[number.length];
+        //duplicate du=new duplicate();
+        //boolean result = du.duplicate_N(number,number.length,dup );
+        //System.out.println(result);
+
+
+        int[]A={1,2,3,4,5};
+        int[]B=new multiply().Muitipy(A);
+        int i=0;
+        while (i<B.length)
+        {
+            System.out.print(B[i]+",");
+            i++;
+        }
 
     }
 
