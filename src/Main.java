@@ -166,9 +166,14 @@ public class Main {
         //System.out.println(sum_n);
 
 
-        Add a=new Add();
-        int sum_num12=a.add_number(3,9);
-        System.out.println(sum_num12);
+        //Add a=new Add();
+        //int sum_num12=a.add_number(3,9);
+        //System.out.println(sum_num12);
+
+        String stri ="2147483649";
+        StrToInt str =new StrToInt();
+        int result = str.StrtoInt(stri);
+        System.out.println(result);
     }
 
 }
