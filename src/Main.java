@@ -170,10 +170,18 @@ public class Main {
         //int sum_num12=a.add_number(3,9);
         //System.out.println(sum_num12);
 
-        String stri ="2147483649";
-        StrToInt str =new StrToInt();
-        int result = str.StrtoInt(stri);
+        //String stri ="2147483649";
+        //StrToInt str =new StrToInt();
+        //int result = str.StrtoInt(stri);
+        //System.out.println(result);
+
+        //int[]number = {2,3,1,0,2,5,3};
+        int[]number = {2,1,3,1,4};
+        int[] dup = new int[number.length];
+        duplicate du=new duplicate();
+        boolean result = du.duplicate_N(number,number.length,dup );
         System.out.println(result);
+
     }
 
 }
