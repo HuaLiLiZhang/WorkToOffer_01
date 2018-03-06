@@ -197,11 +197,22 @@ public class Main {
         //boolean match0=new Match().match(str,pattern);
         //System.out.println(match0);
 
-        String string = "-1.7E-16";
-        char []str =string.toCharArray();
-        IsNumeric num=new IsNumeric();
-        boolean isnot = num.isnumber(str);
-        System.out.println(isnot);
+        //String string = "-1.7E-16";
+        //char []str =string.toCharArray();
+        //IsNumeric num=new IsNumeric();
+        //boolean isnot = num.isnumber(str);
+        //System.out.println(isnot);
+
+
+        FirstAppearingOnce first= new FirstAppearingOnce();
+        first.Insert('g');
+        first.Insert('o');
+        first.Insert('o');
+        first.Insert('g');
+        first.Insert('e');
+        first.Insert('e');
+        char c= first.firstAppearingOnce();
+        System.out.println(c);
 
     }
 
