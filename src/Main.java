@@ -192,11 +192,16 @@ public class Main {
         //    i++;
         //}
 
-        char[] str={};
-        char[] pattern={'.','*'};
-        boolean match0=new Match().match(str,pattern);
-        System.out.println(match0);
+        //char[] str={};
+        //char[] pattern={'.','*'};
+        //boolean match0=new Match().match(str,pattern);
+        //System.out.println(match0);
 
+        String string = "-1.7E-16";
+        char []str =string.toCharArray();
+        IsNumeric num=new IsNumeric();
+        boolean isnot = num.isnumber(str);
+        System.out.println(isnot);
 
     }
 
