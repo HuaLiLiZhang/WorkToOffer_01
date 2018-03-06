@@ -204,15 +204,30 @@ public class Main {
         //System.out.println(isnot);
 
 
-        FirstAppearingOnce first= new FirstAppearingOnce();
-        first.Insert('g');
-        first.Insert('o');
-        first.Insert('o');
-        first.Insert('g');
-        first.Insert('e');
-        first.Insert('e');
-        char c= first.firstAppearingOnce();
-        System.out.println(c);
+        //FirstAppearingOnce first= new FirstAppearingOnce();
+        //first.Insert('g');
+        //first.Insert('o');
+        //first.Insert('o');
+        //first.Insert('g');
+        //first.Insert('e');
+        //first.Insert('e');
+        //char c= first.firstAppearingOnce();
+        //System.out.println(c);
+
+        //EntryNodeOfLoop entry = new EntryNodeOfLoop();
+
+
+        //testFindFirstCommonNode test = new testFindFirstCommonNode();
+        //test.testFirst();
+
+
+        testFindFirstCommonNode test = new testFindFirstCommonNode();
+        test.testFirst();
+
+
+
+
+
 
     }
 

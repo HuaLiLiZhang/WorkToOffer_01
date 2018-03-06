@@ -24,6 +24,7 @@ class BinaryTreeNode
     int val=0;
     BinaryTreeNode left=null;
     BinaryTreeNode right=null;
+    BinaryTreeNode parent = null;
     BinaryTreeNode(int x)
     {
         this.val=x;
