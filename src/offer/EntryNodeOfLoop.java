@@ -14,6 +14,8 @@ public class EntryNodeOfLoop {
         ListNode fast = slow.next;
         while (slow!=null&&fast!=null)
         {
+            //slow一次走一个，fast一次走两个，总有相遇的时候。
+            //相遇即为链表中环的入口结点。
             if(slow==fast)
                 return fast;
             slow=slow.next;
@@ -25,7 +27,7 @@ public class EntryNodeOfLoop {
     }
 
     public ListNode EntryNodeOfLoop(ListNode pHead)
-    {
+    {//知道入口结点一户，计算环中结点个数。
         ListNode meetingnode = meetingNode(pHead);
         if(meetingnode==null)
             return null;
