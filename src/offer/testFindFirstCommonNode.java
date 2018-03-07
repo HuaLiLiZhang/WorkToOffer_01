@@ -1,5 +1,7 @@
 package offer;
 
+import java.util.ArrayList;
+
 /**
  * Created by huali on 2018/2/28.
  */
@@ -69,25 +71,51 @@ public class testFindFirstCommonNode {
         //    System.out.println(bi.val);
 
 
+        //BinaryTreeNode n1 = new BinaryTreeNode ( 1 );
+        //BinaryTreeNode n2 = new BinaryTreeNode ( 2 );
+        //BinaryTreeNode n3 = new BinaryTreeNode ( 2 );
+        //BinaryTreeNode n4 = new BinaryTreeNode ( 4 );
+        //BinaryTreeNode n5 = new BinaryTreeNode ( 5);
+        //BinaryTreeNode n6 = new BinaryTreeNode ( 7);
+        //BinaryTreeNode n7 = new BinaryTreeNode ( 8 );
+        //BinaryTreeNode n8 = new BinaryTreeNode ( 8 );
+        //BinaryTreeNode n9 = new BinaryTreeNode ( 7);
+        //n1.left=n2;
+        //n1.right=n3;
+        //n3.left=n6;
+        //n3.right=n7;
+        //n2.left=n8;
+        //n2.right=n9;
+        //isSymmetrical is=new isSymmetrical();
+        //boolean symmetrical = is.issymmetrical(n1);
+        //System.out.println(symmetrical);
+
         BinaryTreeNode n1 = new BinaryTreeNode ( 1 );
         BinaryTreeNode n2 = new BinaryTreeNode ( 2 );
-        BinaryTreeNode n3 = new BinaryTreeNode ( 2 );
+        BinaryTreeNode n3 = new BinaryTreeNode ( 3 );
         BinaryTreeNode n4 = new BinaryTreeNode ( 4 );
         BinaryTreeNode n5 = new BinaryTreeNode ( 5);
-        BinaryTreeNode n6 = new BinaryTreeNode ( 7);
-        BinaryTreeNode n7 = new BinaryTreeNode ( 8 );
+        BinaryTreeNode n6 = new BinaryTreeNode ( 6);
+        BinaryTreeNode n7 = new BinaryTreeNode ( 7 );
         BinaryTreeNode n8 = new BinaryTreeNode ( 8 );
-        BinaryTreeNode n9 = new BinaryTreeNode ( 7);
-        n1.left=n2;
-        n1.right=n3;
-        n3.left=n6;
-        n3.right=n7;
-        n2.left=n8;
-        n2.right=n9;
-        isSymmetrical is=new isSymmetrical();
-        boolean symmetrical = is.issymmetrical(n1);
-        System.out.println(symmetrical);
+        BinaryTreeNode n9 = new BinaryTreeNode ( 9);
+        n5.left=n3;
+        n5.right=n7;
+        n3.left=n2;
+        n3.right=n4;
+        n7.left=n6;
+        n7.right=n8;
+        //Print_binaryTree print =new Print_binaryTree();
+        //ArrayList<ArrayList<Integer>> ary= print.Print(n1);
+        //System.out.println(ary);
 
+        //KthNode_middlesearch kth = new KthNode_middlesearch();
+        //BinaryTreeNode node = kth.KthNode(n5,4);
+        //System.out.println(node.val);
+
+        KthNode_middlesearch kth = new KthNode_middlesearch();
+        BinaryTreeNode node = kth.Kthnode(n5,4);
+        System.out.println(node.val);
     }
 
 }
