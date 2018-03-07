@@ -1,5 +1,7 @@
 package offer;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -55,4 +57,66 @@ public class GetNumberMedian {
         else
             return new Double(maxHeap.peek());
     }
+
+
+
+
+
+
+    ArrayList<Integer> list =new ArrayList<>();
+    public void insert(int num)
+    {
+        list.add(num);
+        count ++;
+    }
+
+    public Double getmedium()
+    {
+        if(list==null||list.size()==0)
+            return 0.0;
+        //list排序
+        quicksort(list,0,list.size()-1);
+        //Collections.sort(list);
+        System.out.println(count);
+        if(count%2==0)
+            return (double)(list.get(count/2-1)+list.get(count/2))/2;
+        else
+            return (double)(list.get(count/2));
+    }
+
+    public  void quicksort(ArrayList<Integer> list,int start,int end)
+    {
+        if(start<end)
+        {
+            int privot = partition(list,start,end);
+            quicksort(list,start,privot-1);
+            quicksort(list,privot+1,end);
+        }
+    }
+
+
+    public int partition(ArrayList<Integer> list,int start,int end){
+        int flag = list.get(start);
+
+        while (start < end) {
+            while (start < end && list.get(end) >= flag) {
+                end--;
+            }
+            swap(list, start, end);
+            while (start < end && list.get(start) <= flag) {
+                start++;
+            }
+            swap(list, start, end);
+        }
+        //partition
+
+        return start;
+    }
+
+    public void swap(ArrayList<Integer> list, int start, int end) {
+        int temp = list.get(start);
+        list.set(start,list.get(end));
+        list.set(end,temp);
+    }
+
 }

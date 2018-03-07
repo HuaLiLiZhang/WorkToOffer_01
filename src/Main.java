@@ -224,19 +224,32 @@ public class Main {
         //testFindFirstCommonNode test = new testFindFirstCommonNode();
         //test.testFirst();
 
-        GetNumberMedian medium = new GetNumberMedian();
-        medium.Insert(5);
-        medium.Insert(2);
-        medium.Insert(3);
-        medium.Insert(4);
-        medium.Insert(1);
-        medium.Insert(6);
-        medium.Insert(7);
-        medium.Insert(0);
-        medium.Insert(8);
-        double med = medium.GetMedian();
-        System.out.println(med);
+        //GetNumberMedian medium = new GetNumberMedian();
+        //medium.Insert(5);
+        //medium.Insert(2);
+        //medium.Insert(3);
+        //medium.Insert(4);
+        //medium.Insert(1);
+        //medium.Insert(6);
+        //medium.Insert(7);
+        //medium.Insert(0);
+        //medium.Insert(8);
+        //double med = medium.GetMedian();
+        //System.out.println(med);
+        //GetNumberMedian medium = new GetNumberMedian();
+        //medium.insert(5);
+        //medium.insert(2);
+        //medium.insert(3);
+        //medium.insert(4);
+        //medium.insert(1);
+        //medium.insert(6);
+        //medium.insert(7);
+        //medium.insert(0);
+        //medium.insert(8);
+        //double med = medium.getmedium();
+        //System.out.println(med);
 
+        
 
 
 
