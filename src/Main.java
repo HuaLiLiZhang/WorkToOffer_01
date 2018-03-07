@@ -249,7 +249,16 @@ public class Main {
         //double med = medium.getmedium();
         //System.out.println(med);
 
-        
+        //int[]num={2,3,4,2,6,2,5,1};
+        //maxInWindows_ArrayDeque maxin = new maxInWindows_ArrayDeque();
+        //ArrayList<Integer> list = maxin.maxInWindows(num,3);
+        //System.out.println(list);
+
+        int[]num={2,3,4,2,6,2,5,1};
+        maxInWindows_ArrayDeque maxin = new maxInWindows_ArrayDeque();
+        ArrayList<Integer> list = maxin.maxInWindows(num,3);
+        System.out.println(list);
+
 
 
 
