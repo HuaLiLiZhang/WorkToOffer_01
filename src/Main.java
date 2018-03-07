@@ -221,8 +221,22 @@ public class Main {
         //test.testFirst();
 
 
-        testFindFirstCommonNode test = new testFindFirstCommonNode();
-        test.testFirst();
+        //testFindFirstCommonNode test = new testFindFirstCommonNode();
+        //test.testFirst();
+
+        GetNumberMedian medium = new GetNumberMedian();
+        medium.Insert(5);
+        medium.Insert(2);
+        medium.Insert(3);
+        medium.Insert(4);
+        medium.Insert(1);
+        medium.Insert(6);
+        medium.Insert(7);
+        medium.Insert(0);
+        medium.Insert(8);
+        double med = medium.GetMedian();
+        System.out.println(med);
+
 
 
 
