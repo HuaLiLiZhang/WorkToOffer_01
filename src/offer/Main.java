@@ -1,3 +1,5 @@
+package offer;
+
 import offer.*;
 
 import java.util.ArrayList;
@@ -171,7 +173,7 @@ public class Main {
         //System.out.println(sum_num12);
 
         //String stri ="2147483649";
-        //StrToInt str =new StrToInt();
+        //offer.StrToInt str =new offer.StrToInt();
         //int result = str.StrtoInt(stri);
         //System.out.println(result);
 
