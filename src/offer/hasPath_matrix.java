@@ -30,7 +30,16 @@ public class hasPath_matrix {
         boolean haPath = false;
         if (row>=0 && row<rows && col>=0 && col<cols
                 && matrix[row*cols + col] == str[pathlength]
+                //row:目标所在行，cols:列数，col:目标所在列：
                 && !visited[row*cols + col]){
+            /**
+             * a b c d
+             * e f g h
+             * i j k l
+             * 要找到 g 的位置，就得 g 的行数乘以矩阵原本的列数，
+             * 再加上 g 所在的列。即为排成一排时，g的位置
+             * a b c d e f g h i j k l  g()=1*4+2=6;
+             */
             pathlength ++;
             visited[row*cols + col] = true;
 

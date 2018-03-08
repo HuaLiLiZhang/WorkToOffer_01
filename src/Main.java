@@ -259,8 +259,8 @@ public class Main {
         //ArrayList<Integer> list = maxin.maxInWindows(num,3);
         //System.out.println(list);
 
-        String s= "abcesfcsadee";
-        char[]matrix0 = s.toCharArray();
+        //String s= "abcesfcsadee";
+        //char[]matrix0 = s.toCharArray();
         //char[]matrix=new char[3*3];
         //int count=0;
         //for(char c:matrix)
@@ -271,10 +271,18 @@ public class Main {
         //
         //}
         //char[]str={'b','c','c','e','d'};
-        char[]str={'a','b','c','d'};
-        hasPath_matrix has=new hasPath_matrix();
-        boolean result = has.hasPath(matrix0,3,4,str);
-        System.out.println(result);
+        //char[]str={'a','b','c','d'};
+        //hasPath_matrix has=new hasPath_matrix();
+        //boolean result = has.hasPath(matrix0,3,4,str);
+        //System.out.println(result);
+
+        movingCount_robot move = new movingCount_robot();
+        //int count = move.movingCount(18,4,4);
+        //System.out.println(count);
+        int num = move.getSum(138);
+        System.out.println(num);
+
+
 
 
 

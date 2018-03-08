@@ -46,6 +46,9 @@ public class maxInWindows_ArrayDeque {
 
 
 
+
+
+
     public ArrayList<Integer> maxInWindow(int[]num,int size)
     {
         ArrayList<Integer> list = new ArrayList<>();
